@@ -11,18 +11,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.any?{|x| x.size > 4}
-  # calls.each { |call|
-  #   if call.size > 4
-  #     return true
-  #   else
-  #     return false
-    
-  # end}
 end
-
-# def long_planeteer_calls(calls)
-#   calls.include? calls.size > 4
-# end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
