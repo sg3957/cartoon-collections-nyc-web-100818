@@ -10,7 +10,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  calls.any?{|x| x > 4}
+  calls.any?{|x| x.size > 4}
   # calls.each { |call|
   #   if call.size > 4
   #     return true
